@@ -33,6 +33,12 @@ const _nav =  [
     _children: ['Components']
   },
   {
+    _tag: 'CSidebarNavItem',
+    name: 'User Management',
+    to: '/users',
+    icon: 'cil-user'
+  },
+  {
     _tag: 'CSidebarNavDropdown',
     name: 'Base',
     route: '/base',
